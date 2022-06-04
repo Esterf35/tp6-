@@ -18,15 +18,15 @@ background-attachment: fixed;
 
 }
  .comida:hover { color: inherit;
-   transform: scale(1.00);
-    border: 2vh solid #1B2631 ;
+   transform: scale(1.50);
+    border: 1vh solid #1B2631 ;
 
  }
- .titulo1:hover{color:#0DF3EA;
+ .titulo1:hover{color:#005B5A;
    transform: scale(1.00)
 
  }
-.titulo2:hover{color: #0DF3EA;
+.titulo2:hover{color:#005B5A;
 transform: scale(1.00)
 }
 .titulo_sec1:hover {color: #CC904A;transform: scale(1.00);}
@@ -46,7 +46,7 @@ header{
   height:130vh ;
 }
 h1 {
-  color:#18131F ;
+  color:#0DF3EA;
 
 font-family:"fuentes";
 text-align: center;
@@ -62,16 +62,19 @@ box-shadow: 1vh 1vh #32322F;
 }
 
 h2 {font-family:"fuentes";
-  color:#152827;font-size: xxlarge ;border-radius: 10vh;
+  color:#0DF3EA;font-size: xxlarge ;border-radius: 10vh;
   font-family: monospace:DejaVu Sans Mono ;
   text-align: center;
 font-size: 3em;
 
  }
- p{ background-color:#253030;
- color: #D7DBDD ;border-radius:10px;padding:10px;
- font-size:large;
- font-family:  monospace: Lucida Console;
+ p{ background-color:#C0FCF7;
+ color: #9B0059;border-radius:10px;padding:10px;
+ font-size:1em;
+ font-family: 'Andika', sans-serif;
+ font-family: 'IM Fell English', serif;
+ font-family: 'Luckiest Guy', cursive;
+ font-family: 'Rammetto One', cursive;
  text-align: left;filter:alpha(opacity=80);
  -moz-opacity:.80;opacity:.80;
 
@@ -118,24 +121,30 @@ float: left;
 margin:1%;
 padding-right:10vh;
 border-radius: 5vh;
+font-family: 'Andika', sans-serif;
+font-family: 'IM Fell English', serif;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Rammetto One', cursive;
 
-filter:alpha(opacity=80);
--moz-opacity:.80;opacity:.50;
 }
 h3 {
-  font-family: monospace:DejaVu Sans Mono;
 text-align: center;
-color: #9B0059;
+color:#005B5A;
 display: flex; flex-direction: column;
 justify-content: space-around; align-items: center;
-
+font-family: 'Andika', sans-serif;
+font-family: 'IM Fell English', serif;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Rammetto One', cursive;
 
 }
 
-li{ background-color:;
+li{ background-color:;font-size: 1em;
 color:#9B0059;
-text-align: justify;
-font-family: monospace:Lucida Console;
+text-align: justify;font-family: 'Andika', sans-serif;
+font-family: 'IM Fell English', serif;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Rammetto One', cursive;
 }
 
 
@@ -146,12 +155,13 @@ margin:1%;
 padding-right:5vh;
 border-radius: 5vh;}
 
-footer{background-color:#253030 ;
+footer{background-color:#C0FCF7;
   border-radius: 10vh;
 clear:both;
 align-content: flex-start;
   display: flex;
   justify-content:center; space-space-between;
+
 
 
 }
