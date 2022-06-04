@@ -1,0 +1,192 @@
+.contenedor{ background-color: transparent;
+  width: 90%;
+  border-radius: 10px;
+  margin: 30px;
+  padding: 30px;
+  font-size: 20px;
+
+}
+body { background-image: linear-gradient(to right top, #845ec2, #806ecc, #7e7cd4, #7d8adb, #7f97e1, #7d99e5, #7a9bea, #779dee, #6d94f3, #668bf6, #6181f9, #5f76fb);
+;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+@font-face {
+  font-family: "fuentes";
+  src: url("../fuentes/LuckiestGuy-Regular.ttf") format("truetype");
+
+}
+ .comida:hover { color: inherit;
+   transform: scale(1.00);
+    border: 2vh solid #1B2631 ;
+
+ }
+ .titulo1:hover{color:#0DF3EA;
+   transform: scale(1.00)
+
+ }
+.titulo2:hover{color: #0DF3EA;
+transform: scale(1.00)
+}
+.titulo_sec1:hover {color: #CC904A;transform: scale(1.00);}
+.titulo_sec2:hover{color:#CC904A;transform: scale(1.00);}
+.boton:hover{color: inherit;transform: scale(1.50);}
+.paginas:hover{color: inherit;transform: scale(1.50)
+
+}
+
+
+}
+header{
+    text-align: center;
+    loat: left;
+    margin:1%;
+    padding: 3px;border-radius: 10px;
+  height:130vh ;
+}
+h1 {
+  color:#18131F ;
+
+font-family:"fuentes";
+text-align: center;
+font-size: 4em;
+
+}
+
+img{max-width:100%;
+display: table-row-group;
+margin: inherit;
+box-shadow: 1vh 1vh #32322F;
+
+}
+
+h2 {font-family:"fuentes";
+  color:#152827;font-size: xxlarge ;border-radius: 10vh;
+  font-family: monospace:DejaVu Sans Mono ;
+  text-align: center;
+font-size: 3em;
+
+ }
+ p{ background-color:#253030;
+ color: #D7DBDD ;border-radius:10px;padding:10px;
+ font-size:large;
+ font-family:  monospace: Lucida Console;
+ text-align: left;filter:alpha(opacity=80);
+ -moz-opacity:.80;opacity:.80;
+
+
+ }
+
+nav{ ;
+  display: flex;
+  direction:row;
+  justify-content:space-around;
+  filter:alpha(opacity=80);
+  -moz-opacity:.80;opacity:.80;
+  margin:1%;
+  padding: 5px;border-radius: 10px;
+
+  }
+  .boton {background-color:#E4F3F2 ;
+      width: 10%;
+      height: 5%;
+      display: flex;
+      justify-content: center;
+      border-radius: 6vh;
+      border-color: rgba(68, 68, 72, 0.7);
+
+      cursor: pointer;
+      font-family:  fantasy;
+  a:link{color: #FFFFFF; font-family: monospace:DejaVu Sans Mono;
+       font-size: 20pt; font-weight: bold;
+  }
+  a:visited {color:coral; font-family: monospace:DejaVu Sans Mono;
+       font-size: 20pt; font-weight: bold;
+  }
+  a:active{color: #FFFFFF; font-family: monospace:DejaVu Sans Mono;
+       font-size: 20pt; font-weight: bold;
+  }
+  .boton:hover {transform: scale(1.2);
+      }
+
+}
+section{background-color:#C0FCF7;
+text-align: justify;
+width: 50%;
+float: left;
+margin:1%;
+padding-right:10vh;
+border-radius: 5vh;
+
+filter:alpha(opacity=80);
+-moz-opacity:.80;opacity:.50;
+}
+h3 {
+  font-family: monospace:DejaVu Sans Mono;
+text-align: center;
+color: #9B0059;
+display: flex; flex-direction: column;
+justify-content: space-around; align-items: center;
+
+
+}
+
+li{ background-color:;
+color:#9B0059;
+text-align: justify;
+font-family: monospace:Lucida Console;
+}
+
+
+aside{
+width:30%;
+float:left;
+margin:1%;
+padding-right:5vh;
+border-radius: 5vh;}
+
+footer{background-color:#A04000 ;
+  border-radius: 10vh;
+clear:both;
+align-content: flex-start;
+  display: flex;
+  justify-content:center; space-space-between;
+
+
+}
+.wsp{
+  background-color: #2e6329;
+  	border:1px solid white;
+  	position: fixed;
+  	z-index: 999;
+  	border-radius:50%;
+  	bottom: 2vh;
+  	right: 2vh;
+  	padding: 2.5vh;
+  	transition: ease 0.3s;
+  	width: 10vh;
+  	animation: efecto 1.2s infinite;
+
+}
+.wsp{
+	padding: center;
+	width: 10vh;
+	transition: ease 1s;
+
+}
+.wsp:hover{transform: scale(1.1);
+	transition: 0.3s;
+
+}
+
+@keyframes efecto{
+	0%{
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);	}
+	100%{
+		box-shadow: 0 0 0 4vh rgba(0, 0, 0, 0);	}
+
+.wsp:hover{transform: scale(1.1);
+	transition: 0.3s;
+
+}
