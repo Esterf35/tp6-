@@ -1,9 +1,9 @@
-.contenedor{ background-color: transparent;
-  width: 90%;
-  border-radius: 10px;
-  margin: 30px;
-  padding: 30px;
-  font-size: 20px;
+.contenedor{
+  width: 100%;
+  border-radius: 5vh;
+  margin-left: 5vh;margin-top: auto;
+  padding:1vh ;
+  font-size:1rem;
 
 }
 body { background-image: linear-gradient(to right top, #845ec2, #806ecc, #7e7cd4, #7d8adb, #7f97e1, #7d99e5, #7a9bea, #779dee, #6d94f3, #668bf6, #6181f9, #5f76fb);
@@ -29,9 +29,9 @@ background-attachment: fixed;
 .titulo2:hover{color:#005B5A;
 transform: scale(1.00)
 }
-.titulo_sec1:hover {color: #CC904A;transform: scale(1.00);}
-.titulo_sec2:hover{color:#CC904A;transform: scale(1.00);}
-.boton:hover{color: inherit;transform: scale(1.50);}
+.titulo_sec1:hover {color: #F4F6F7;transform: scale(1.00);}
+.titulo_sec2:hover{color:#F4F6F7;transform: scale(1.00);}
+.boton:hover{color: #CC904A;transform: scale(1.50);}
 .paginas:hover{color: inherit;transform: scale(1.50)
 
 }
@@ -41,8 +41,8 @@ transform: scale(1.00)
 header{
     text-align: center;
     loat: left;
-    margin:1%;
-    padding: 3px;border-radius: 10px;
+    margin:10%;
+    padding: 3vh;border-radius: 10vh;
   height:130vh ;
 }
 h1 {
@@ -68,16 +68,11 @@ h2 {font-family:"fuentes";
 font-size: 3em;
 
  }
- p{ background-color:#C0FCF7;
- color: #9B0059;border-radius:10px;padding:10px;
- font-size:1em;
- font-family: 'Andika', sans-serif;
- font-family: 'IM Fell English', serif;
- font-family: 'Luckiest Guy', cursive;
- font-family: 'Rammetto One', cursive;
- text-align: left;filter:alpha(opacity=80);
- -moz-opacity:.80;opacity:.80;
-
+ p{
+ color:#F4F6F7;border-radius:10vh;padding:10vh;
+ font-size:1.5em;
+font-family: 'Catamaran', sans-serif;
+ text-align: justify;
 
  }
 
@@ -88,33 +83,47 @@ nav{ ;
   filter:alpha(opacity=80);
   -moz-opacity:.80;opacity:.80;
   margin:1%;
-  padding: 5px;border-radius: 10px;
+  padding: 5vh;border-radius: 10vh;
 
   }
-  .boton {background-color:#E4F3F2 ;
-      width: 10%;
+  .boton {
+      width: 5%;
       height: 5%;
       display: flex;
       justify-content: center;
-      border-radius: 6vh;
-      border-color: rgba(68, 68, 72, 0.7);
+      border-radius: 5vh;
+
 
       cursor: pointer;
-      font-family:  fantasy;
-  a:link{color: #FFFFFF; font-family: monospace:DejaVu Sans Mono;
-       font-size: 20pt; font-weight: bold;
+      font-family: 'Andika', sans-serif;
+  font-family: 'Chango', cursive;
+  font-family: 'IM Fell English', serif;
+  font-family: 'Luckiest Guy', cursive;
+  font-family: 'Rammetto One', cursive;
+  font-family: 'Teko', sans-serif;
+  a:link{color: #FFFFFF; font-size: 10em;
   }
-  a:visited {color:coral; font-family: monospace:DejaVu Sans Mono;
-       font-size: 20pt; font-weight: bold;
+  a:visited {color:coral;  font-family: 'Andika', sans-serif;
+font-family: 'Chango', cursive;
+font-family: 'IM Fell English', serif;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Rammetto One', cursive;
+font-family: 'Teko', sans-serif;
+       font-size: 20em; font-weight: bold;
   }
-  a:active{color: #FFFFFF; font-family: monospace:DejaVu Sans Mono;
-       font-size: 20pt; font-weight: bold;
+  a:active{color: #FFFFFF;  font-family: 'Andika', sans-serif;
+font-family: 'Chango', cursive;
+font-family: 'IM Fell English', serif;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Rammetto One', cursive;
+font-family: 'Teko', sans-serif;
+       font-size: 20em; font-weight: bold;
   }
   .boton:hover {transform: scale(1.2);
       }
 
 }
-section{background-color:#C0FCF7;
+section{
 text-align: justify;
 width: 50%;
 float: left;
@@ -127,7 +136,7 @@ font-family: 'Luckiest Guy', cursive;
 font-family: 'Rammetto One', cursive;
 
 }
-h3 {
+h3 {font-size: 2em;
 text-align: center;
 color:#005B5A;
 display: flex; flex-direction: column;
@@ -139,12 +148,11 @@ font-family: 'Rammetto One', cursive;
 
 }
 
-li{ background-color:;font-size: 1em;
-color:#9B0059;
+li{ background-color:;font-size: 1.5em;
+color:#F4F6F7;
 text-align: justify;font-family: 'Andika', sans-serif;
-font-family: 'IM Fell English', serif;
-font-family: 'Luckiest Guy', cursive;
-font-family: 'Rammetto One', cursive;
+font-family: 'Catamaran', sans-serif;
+
 }
 
 
@@ -155,19 +163,18 @@ margin:1%;
 padding-right:5vh;
 border-radius: 5vh;}
 
-footer{background-color:#C0FCF7;
-  border-radius: 10vh;
-clear:both;
-align-content: flex-start;
-  display: flex;
-  justify-content:center; space-space-between;
-
+footer{ display: flex;
+      justify-content: center;  align-items: center;
+      flex-wrap: wrap;
+      justify-items: auto;
+      flex-direction:  row-reverse;
+      width: 99%;
 
 
 }
 .wsp{
   background-color: #2e6329;
-  	border:1px solid white;
+  	border:1vh solid white;
   	position: fixed;
   	z-index: 999;
   	border-radius:50%;
