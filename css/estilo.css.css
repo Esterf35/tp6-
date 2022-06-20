@@ -1,6 +1,6 @@
 .contenedor{background-color: ;
-  width: 100%;
-  border-radius: 2vh;
+  width: 95%;
+  border-radius: 1vh;
   margin-left: 2vh;margin-top: auto;
   padding:1vh ;
   font-size:1rem;
@@ -8,21 +8,19 @@
 }
 
 
-body { background-image: linear-gradient(to right top, #167e77, #21746f, #286a66, #2d615e, #305755, #305957, #305b58, #305d5a, #2d6a66, #277872, #1c867f, #03948b);
+body { background-image: linear-gradient(to right top, #231b20, #2f2931, #3a3943, #444a55, #4d5b66, #4d5b66, #4d5b66, #4d5b66, #444a55, #3a3943, #2f2931, #231b20);
 background-repeat: no-repeat;
 background-attachment: fixed;
 }
 
 /*CARDS*/
-.contenedorr{
-margin-top:50px;
-}
+.contenedorr{margin-top:50px;justify-content: space-around;}
+
 .card-text {color:#4B4A54; text-align:  center;
-    position: relative;
+    position:  relative;
     display: flex;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
+    align-items:  stretch; padding:
+
 }
 
 .botreceta{
@@ -164,8 +162,13 @@ font-family: 'Quicksand', sans-serif;
 
 li{ background-color:;font-size:1.5em;
 color:#F4F6F7;
-text-align: justify;font-family: 'Andika', sans-serif;
-font-family: 'Catamaran', sans-serif;
+text-align: justify;font-family: 'Catamaran', sans-serif;
+font-family: 'Gentium Plus', serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Source Sans Pro', sans-serif;
 
 }
 
@@ -174,13 +177,10 @@ aside{
   display: flex;
 
       flex-direction: column;
-      border: 2px
-      border-radius: 2.5vh;box-sizing: border-box;
       margin-left: 0.5%;
-      padding: 5%;
+      padding: 3%;
       overflow: visible;
-      width:38%;
-      height: 1s0x12cdd0106a852d31vh;}
+      width:38%;}
 
 
 
