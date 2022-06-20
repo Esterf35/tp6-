@@ -1,20 +1,38 @@
-.contenedor{
+.contenedor{background-color: ;
   width: 100%;
-  border-radius: 5vh;
-  margin-left: 5vh;margin-top: auto;
+  border-radius: 2vh;
+  margin-left: 2vh;margin-top: auto;
   padding:1vh ;
   font-size:1rem;
 
 }
-body { background-image: linear-gradient(to right top, #845ec2, #806ecc, #7e7cd4, #7d8adb, #7f97e1, #7d99e5, #7a9bea, #779dee, #6d94f3, #668bf6, #6181f9, #5f76fb);
+
+
+body { background-image: linear-gradient(to right top, #324b4a, #355e63, #397180, #43839f, #5894bf, #5894bf, #5894bf, #5894bf, #43839f, #397180, #355e63, #324b4a);
 ;
 background-repeat: no-repeat;
 background-attachment: fixed;
 }
 
+/*CARDS*/
+.contenedorr{
+margin-top:50px;
+}
+
+.botreceta{
+	background-color: black;
+}
+.botreceta:hover{
+font-weight: bold;
+color:black;
+background:#F7DC6F;
+border-color: black;
+box-shadow: 0 0 10vh #F7DC6F, 0 0 10vh #F7DC6F,0 0 10vh #F7DC6F;
+}
+
 @font-face {
   font-family: "fuentes";
-  src: url("../fuentes/LuckiestGuy-Regular.ttf") format("truetype");
+  src: url("../fuentes/JosefinSans-Italic-VariableFont_wght.ttf") format("truetype");
 
 }
  .comida:hover { color: inherit;
@@ -22,42 +40,39 @@ background-attachment: fixed;
     border: 1vh solid #1B2631 ;
 
  }
- .titulo1:hover{color:#005B5A;
+ .titulo1:hover{color:#EAF9F8;
    transform: scale(1.00)
 
  }
-.titulo2:hover{color:#005B5A;
+.titulo2:hover{color:#EAF9F8;
 transform: scale(1.00)
 }
-.titulo_sec1:hover {color: #F4F6F7;transform: scale(1.00);}
-.titulo_sec2:hover{color:#F4F6F7;transform: scale(1.00);}
+.titulo_sec1:hover {color:#F9F871;transform: scale(1.00);}
+.titulo_sec2:hover{color:#F9F871;transform: scale(1.00);}
 .boton:hover{color: #CC904A;transform: scale(1.50);}
-.paginas:hover{color: inherit;transform: scale(1.50)
+
+
+
+
 
 }
+header{background-color:black;   width: 100%;
 
 
-}
-header{
+
     text-align: center;
     loat: left;
     margin:10%;
     padding: 3vh;border-radius: 10vh;
   height:130vh ;
 }
-h1 {
+h1 {border: 2px solid#16A085;padding:3vh;
+
   color:#0DF3EA;
 
 font-family:"fuentes";
 text-align: center;
-font-size: 4em;
-
-}
-
-img{max-width:100%;
-display: table-row-group;
-margin: inherit;
-box-shadow: 1vh 1vh #32322F;
+font-size: 3em;
 
 }
 
@@ -69,39 +84,24 @@ font-size: 3em;
 
  }
  p{
- color:#F4F6F7;border-radius:10vh;padding:10vh;
- font-size:1.5em;
+ color:#F4F6F7;border: 2px solid #16A085;;padding:2vh;
+ font-size:1em;
 font-family: 'Catamaran', sans-serif;
  text-align: justify;
 
  }
 
-nav{ ;
-  display: flex;
-  direction:row;
-  justify-content:space-around;
-  filter:alpha(opacity=80);
-  -moz-opacity:.80;opacity:.80;
-  margin:1%;
-  padding: 5vh;border-radius: 10vh;
-
-  }
   .boton {
-      width: 5%;
+      width: 10%;
       height: 5%;
       display: flex;
       justify-content: center;
       border-radius: 5vh;
-
-
       cursor: pointer;
-      font-family: 'Andika', sans-serif;
-  font-family: 'Chango', cursive;
-  font-family: 'IM Fell English', serif;
-  font-family: 'Luckiest Guy', cursive;
-  font-family: 'Rammetto One', cursive;
-  font-family: 'Teko', sans-serif;
-  a:link{color: #FFFFFF; font-size: 10em;
+      font-family: 'Catamaran', sans-serif;
+     font-family: 'Josefin Sans', sans-serif;
+     font-family: 'Quicksand', sans-serif;
+     a:link{color: #FFFFFF; font-size: 10em;
   }
   a:visited {color:coral;  font-family: 'Andika', sans-serif;
 font-family: 'Chango', cursive;
@@ -123,32 +123,36 @@ font-family: 'Teko', sans-serif;
       }
 
 }
-section{
+
+.contenedor2{
+  display: flex;
+justify-content: space-around;
+
+}
+section{border: 2px solid #16A085;padding:1vh;
 text-align: justify;
-width: 50%;
-float: left;
+width: 40%;
+display: flex;
+flex-direction: column;
+height: 70vh
 margin:1%;
-padding-right:10vh;
-border-radius: 5vh;
+box-sizing: border-box;
 font-family: 'Andika', sans-serif;
 font-family: 'IM Fell English', serif;
 font-family: 'Luckiest Guy', cursive;
 font-family: 'Rammetto One', cursive;
 
 }
-h3 {font-size: 2em;
+h3 {font-size: 1.5em;
 text-align: center;
-color:#005B5A;
+color:#0DF3EA;
 display: flex; flex-direction: column;
 justify-content: space-around; align-items: center;
-font-family: 'Andika', sans-serif;
-font-family: 'IM Fell English', serif;
-font-family: 'Luckiest Guy', cursive;
-font-family: 'Rammetto One', cursive;
-
+ffont-family: 'Catamaran', sans-serif;
+font-family: 'Quicksand', sans-serif;
 }
 
-li{ background-color:;font-size: 1.5em;
+li{ background-color:;font-size: 1em;
 color:#F4F6F7;
 text-align: justify;font-family: 'Andika', sans-serif;
 font-family: 'Catamaran', sans-serif;
@@ -157,11 +161,20 @@ font-family: 'Catamaran', sans-serif;
 
 
 aside{
-width:30%;
-float:left;
-margin:1%;
-padding-right:5vh;
-border-radius: 5vh;}
+  display: flex;
+
+      flex-direction: column;
+      border: 2px
+      border-radius: 2.5vh;box-sizing: border-box;
+      margin-left: 0.5%;
+      padding: 5%;
+      overflow: visible;
+      width:40%;
+      height: 1s0x12cdd0106a852d31vh;}
+
+
+
+
 
 footer{ display: flex;
       justify-content: center;  align-items: center;
@@ -172,6 +185,7 @@ footer{ display: flex;
 
 
 }
+
 .wsp{
   background-color: #2e6329;
   	border:1vh solid white;
@@ -182,13 +196,13 @@ footer{ display: flex;
   	right: 2vh;
   	padding: 2.5vh;
   	transition: ease 0.3s;
-  	width: 10vh;
+  	width: 2vh;
   	animation: efecto 1.2s infinite;
 
 }
 .wsp{
 	padding: center;
-	width: 10vh;
+	width: 15vh;
 	transition: ease 1s;
 
 }
@@ -196,7 +210,6 @@ footer{ display: flex;
 	transition: 0.3s;
 
 }
-
 @keyframes efecto{
 	0%{
 		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);	}
@@ -204,6 +217,31 @@ footer{ display: flex;
 		box-shadow: 0 0 0 4vh rgba(0, 0, 0, 0);	}
 
 .wsp:hover{transform: scale(1.1);
-	transition: 0.3s;
+	transition: 0.3s;}
+}
+
+@media (min-width: 575px){ .audio {display: none;}
+h1 {font-family: 'Catamaran', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Righteous', cursive;color:#F9F871;
+}
+h2{font-family: 'Catamaran', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Righteous', cursive;color:#F9F871;}
+
+
+}
+@media (min-width: 575px) and (max-width:767px) {
+    body{background: black;}
+}
+@media (min-width: 768px) and (max-width:991px){
+  .titulo1 {background: black;}
+  .titulo2{background: black;}
+@media (min-width: 992px) and (max-width:1199px){
+  .titulo1 {background: black;}
 
 }
