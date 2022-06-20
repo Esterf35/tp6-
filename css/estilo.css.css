@@ -8,8 +8,7 @@
 }
 
 
-body { background-image: linear-gradient(to right top, #324b4a, #355e63, #397180, #43839f, #5894bf, #5894bf, #5894bf, #5894bf, #43839f, #397180, #355e63, #324b4a);
-;
+body { background-image: linear-gradient(to right top, #167e77, #21746f, #286a66, #2d615e, #305755, #305957, #305b58, #305d5a, #2d6a66, #277872, #1c867f, #03948b);
 background-repeat: no-repeat;
 background-attachment: fixed;
 }
@@ -17,6 +16,13 @@ background-attachment: fixed;
 /*CARDS*/
 .contenedorr{
 margin-top:50px;
+}
+.card-text {color:#4B4A54; text-align:  center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
 }
 
 .botreceta{
@@ -35,9 +41,7 @@ box-shadow: 0 0 10vh #F7DC6F, 0 0 10vh #F7DC6F,0 0 10vh #F7DC6F;
   src: url("../fuentes/JosefinSans-Italic-VariableFont_wght.ttf") format("truetype");
 
 }
- .comida:hover { color: inherit;
-   transform: scale(1.50);
-    border: 1vh solid #1B2631 ;
+
 
  }
  .titulo1:hover{color:#EAF9F8;
@@ -51,19 +55,19 @@ transform: scale(1.00)
 .titulo_sec2:hover{color:#F9F871;transform: scale(1.00);}
 .boton:hover{color: #CC904A;transform: scale(1.50);}
 
-
+.comida{
+  width: 90vw;
+  height: 70vh;
+}
 
 
 
 }
 header{background-color:black;   width: 100%;
-
-
-
     text-align: center;
     loat: left;
     margin:10%;
-    padding: 3vh;border-radius: 10vh;
+    padding: 1vh;border-radius: 10vh;
   height:130vh ;
 }
 h1 {border: 2px solid#16A085;padding:3vh;
@@ -85,8 +89,14 @@ font-size: 3em;
  }
  p{
  color:#F4F6F7;border: 2px solid #16A085;;padding:2vh;
- font-size:1em;
-font-family: 'Catamaran', sans-serif;
+ font-size:1.5em;
+ font-family: 'Catamaran', sans-serif;
+ font-family: 'Gentium Plus', serif;
+ font-family: 'Josefin Sans', sans-serif;
+ font-family: 'Kdam Thmor Pro', sans-serif;
+ font-family: 'Quicksand', sans-serif;
+ font-family: 'Righteous', cursive;
+ font-family: 'Source Sans Pro', sans-serif;
  text-align: justify;
 
  }
@@ -131,7 +141,7 @@ justify-content: space-around;
 }
 section{border: 2px solid #16A085;padding:1vh;
 text-align: justify;
-width: 40%;
+width: 80%;
 display: flex;
 flex-direction: column;
 height: 70vh
@@ -152,7 +162,7 @@ ffont-family: 'Catamaran', sans-serif;
 font-family: 'Quicksand', sans-serif;
 }
 
-li{ background-color:;font-size: 1em;
+li{ background-color:;font-size:1.5em;
 color:#F4F6F7;
 text-align: justify;font-family: 'Andika', sans-serif;
 font-family: 'Catamaran', sans-serif;
@@ -169,7 +179,7 @@ aside{
       margin-left: 0.5%;
       padding: 5%;
       overflow: visible;
-      width:40%;
+      width:38%;
       height: 1s0x12cdd0106a852d31vh;}
 
 
