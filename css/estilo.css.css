@@ -125,7 +125,7 @@ display: flex;justify-content: center;
       font-family: 'Catamaran', sans-serif;
      font-family: 'Josefin Sans', sans-serif;
      font-family: 'Quicksand', sans-serif;
-     a:link{color: #FFFFFF; font-size: 10em;
+     a:link{color: #FFFFFF; font-size: 20em;
   }
   a:visited {color:coral;  font-family: 'Andika', sans-serif;
 font-family: 'Chango', cursive;
@@ -141,7 +141,7 @@ font-family: 'IM Fell English', serif;
 font-family: 'Luckiest Guy', cursive;
 font-family: 'Rammetto One', cursive;
 font-family: 'Teko', sans-serif;
-       font-size: 20em; font-weight: bold;
+       font-size: 10em; font-weight: bold;
   }
   .boton:hover {transform: scale(1.2);
       }
@@ -227,7 +227,7 @@ height:
 }
 .wsp{
 	padding: center;
-	width: 15vh;
+	width: 10vh;
 	transition: ease 1s;
 
 }
@@ -261,7 +261,7 @@ font-family: 'Righteous', cursive;color:#F9F871;}
 
 }
 @media (min-width: 575px) and (max-width:767px) {
-    body{background: black;}
+    body{background: #00C9A7;}
 }
 @media (min-width: 768px) and (max-width:991px){
   .titulo1 {background: black;}
