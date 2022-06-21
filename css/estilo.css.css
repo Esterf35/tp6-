@@ -191,10 +191,10 @@ font-family: 'Source Sans Pro', sans-serif;
 
 aside{font-size: 1em
   display: flex;
-      justify-content: space-between;
-      margin-left: 0.5%;
-      padding: 3%;
-      width:80%;text-align: justify;;}
+
+      margin-left: 0%;
+      padding: 1%;
+      width:100%;}
 
 
 
