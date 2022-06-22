@@ -12,7 +12,12 @@ body { background-image: linear-gradient(to right top, #231b20, #2f2931, #3a3943
 background-repeat: no-repeat;
 background-attachment: fixed;
 }
-
+/*BOTON DE CAMBIO DE FONDO*/
+.modo_oscuro {
+    top:auto;
+    position: static;
+    z-index: 999;
+}
 /*CARDS*/
 .contenedorr{margin-top:50px;justify-content: space-around;
 
@@ -189,14 +194,17 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 
 
-aside{font-size: 1em
+aside{
+  font-size: 1em
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 0%;
+  padding: 1%;
+  width: 90%;
+ }
 
-      margin-left: 0%;
-      padding: 1%;
-      width:100%;}
-
-
+  
 
 
 
@@ -244,7 +252,7 @@ height:
 .wsp:hover{transform: scale(1.1);
 	transition: 0.3s;}
 }
-
+/* media queries*/
 @media (min-width: 575px){ .audio {display: none;}
 h1 {font-family: 'Catamaran', sans-serif;
 font-family: 'Josefin Sans', sans-serif;
@@ -262,10 +270,13 @@ font-family: 'Righteous', cursive;color:#F9F871;}
 }
 @media (min-width: 575px) and (max-width:767px) {
     body{background: #00C9A7;}
-}
+    p{color: #324B4A;}
+    ul{color: #324B4A;}
+    li{color:#324B4A;}
+    h3{color: #324B4A;}
 @media (min-width: 768px) and (max-width:991px){
-  .titulo1 {background: black;}
-  .titulo2{background: black;}
+  .titulo1 {background:#00C594;}
+  .titulo2{background: #00C594;}
 @media (min-width: 992px) and (max-width:1199px){
   .titulo1 {background: black;}
 
