@@ -1,0 +1,47 @@
+
+@media (min-width:320px) and (max-width: 575px){
+  body { background-color: red;}
+}
+
+body { background-image: linear-gradient(to right top, #231b20, #2f2931, #3a3943, #444a55, #4d5b66, #4d5b66, #4d5b66, #4d5b66, #444a55, #3a3943, #2f2931, #231b20);
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+
+
+
+
+
+
+
+
+/*CARDS*/
+
+.contenedorr{margin-top:50px;justify-content: space-around;
+}
+
+.card {background-color: #5B737A;
+    color: antiquewhite;
+
+}
+.card-text {color:#4B4A54; text-align:  center;background-color: #5B737A;
+    color: antiquewhite;
+
+
+}
+.row {text-align:-webkit-center;
+    color: antiquewhite;
+
+}
+.botreceta{
+	background-color: black;
+}
+.botreceta:hover{
+font-weight: bold;
+color:black;
+background:#F7DC6F;
+border-color: black;
+box-shadow: 0 0 10vh #F7DC6F, 0 0 10vh #F7DC6F,0 0 10vh #F7DC6F;
+}
+/* aca termina CARDS*/
