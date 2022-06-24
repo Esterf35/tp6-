@@ -82,9 +82,10 @@ transform: scale(1.00)
 
 
 }
-header{background-color:black;   width: 100%;
+header{
+  background-color:black;   width: 100%;
     text-align: center;
-    loat: left;
+   
     margin:10%;
     padding: 1vh;border-radius: 10vh;
   height:130vh ;
@@ -122,10 +123,6 @@ display: flex;justify-content: center;
 
   .boton {
       width: 10%;
-      height: 5%;
-      display: flex;
-      justify-content: center;
-      border-radius: 5vh;
       cursor: pointer;
       font-family: 'Catamaran', sans-serif;
      font-family: 'Josefin Sans', sans-serif;
@@ -158,11 +155,13 @@ font-family: 'Teko', sans-serif;
 justify-content: space-around;width: 100%;
 
 }
-section{padding:1vh;
+section{
+padding:1vh;
 text-align: justify;
 width: 100%;
 display: flex;
 flex-direction: column;
+height: 70vh;
 margin:1%;
 box-sizing: border-box;
 font-family: 'Andika', sans-serif;
@@ -176,7 +175,7 @@ text-align: left;
 color:#0DF3EA;
 display: flex; flex-direction: column;
 justify-content: space-around; align-items: center;
-ffont-family: 'Catamaran', sans-serif;
+font-family: 'Catamaran', sans-serif;
 font-family: 'Quicksand', sans-serif;
 }
 
@@ -203,7 +202,7 @@ aside{
   width: 90%;
  }
 
-
+  
 
 
 

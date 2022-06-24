@@ -1,5 +1,13 @@
-function fondoblack() {
-    document.body.style.background = "#353229";
-    document.body.style.color = "antiquewhite";
-}
+
+
 function copy() {alert("by ESTER FERRARI")}
+
+function fondoblack(){
+  
+        document.body.style.backgroundColor = "black";
+
+    }
+
+    function copy() {
+        alert("Autora:ESTER FERRARI. EMAIL: esterf24@gmail.com");
+        }
